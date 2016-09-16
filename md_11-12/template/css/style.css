@@ -1,0 +1,40 @@
+body{
+	background:#eee;
+	margin:0;
+}
+.main_wrapper{
+	width:462px;
+	margin:4px auto 50px;
+	background:#fff;
+	padding:54px 25px 61px;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+}
+body>div h1{
+	text-align:center;
+	margin-bottom:27px;
+}
+body>div img{
+	display:block;
+	width:134px;
+	height:128px;
+	margin:0 auto;
+	border-radius:50%;
+}
+.wrapper{
+	padding:10px 13px;
+}
+.border{
+	border-bottom: 1px solid #7a7a7a;
+}
+body div:nth-child(2) p{
+	margin-bottom:35px;
+}
+ul{
+	padding-left:25px;
+}
+ul li{
+	margin-bottom:10px;
+}
+.phone{
+	margin-bottom:39px;
+}
