@@ -1,0 +1,88 @@
+* {
+	color: white;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+body {
+	background: #ED8282;
+	margin: 0;
+	border: 1px solid transparent;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+label {
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+input[type='checkbox'] {
+	height: 12px;
+	width: 12px;
+	margin-left: 25px;
+}
+
+input[type='button'] {
+	display: block;
+	height: 38px;
+	width: 260px;
+	margin: 20px auto 0;
+	border: none;
+	border-radius: 5px;
+	background: #5d9f81;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#form-test{
+	padding-left: 200px;
+}
+
+input[type='button']:hover {
+	background: #6abd97;
+}
+
+.modal_bckgr {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.modal_content {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 200px;
+	width: 400px;
+	border-radius: 10px;
+	background: white;
+	transform: translate(-50%, -50%);
+}
+
+.modal_content p {
+	margin: 0;
+	color: black;
+	text-align: center;
+}
+
+.modal_title {
+	border: 2px solid #777;
+	background: linear-gradient(to bottom, #777, #ccc);
+	border-top-left-radius: 10px; 
+	border-top-right-radius: 10px; 
+	line-height: 40px;
+}
+
+p.modal_result {
+	font-size: 14px;
+}
