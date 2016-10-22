@@ -1,0 +1,24 @@
+{
+  "name": "dz_21-22",
+  "version": "0.0.0",
+  "description": "Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denys Kozhokar",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9",
+    "phantomjs": "^2.1.7"
+  }
+}
